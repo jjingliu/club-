@@ -6,8 +6,9 @@
 
 | 编号  | 论文           | 期刊/出版时间 | 关键词 | 问题描述 |
 | :---:|     :---       |      ：---  |  ：--- |  ：--- |
-| 1 | Alignment of spatial transcriptomics data using diffeomorphic metric mapping [here](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH?usp=sharing). | git status    |
-| 2 | git diff       | git diff      |
+| 1 | [STalign: Alignment of spatial transcriptomics data using diffeomorphic metric mapping]((https://www.nature.com/articles/s41467-023-43915-7)). | Nature Communications/2023 12 |使用一个现有的图像映射算法LDDMM来对齐空间转录组数据 |
+
+| 2 |   |      | |    | |
 
 
 
