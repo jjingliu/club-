@@ -26,7 +26,25 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 使用一个现有的图像映射算法LDDMM来对齐空间转录组数据
 <img src="fig/STalign.png">
 
-**3**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
+**3**  [Integrating spatial transcriptomics data across different conditions, technologies and developmental stages](https://www.biorxiv.org/content/10.1101/2022.12.26.521888v1.full.pdf)
+
+**期刊/时间** `Nature Computational Science  / 2023 10` 
+
+**关键词** `Integrating spatial transcriptomics data` `STAligner`
+
+**问题描述** STAligner 的图注意神经网络，用于整合和对齐 ST 数据集，实现空间感知数据整合、同步空间域识别和下游比较分析。
+<img src="fig/STAligner.png">
+
+**4**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
+
+**期刊/时间** `Nature Computational Science  / 2023 10` 
+
+**关键词** `integrating and aligning of spatial transcriptomics` `SPIRAL`
+
+**问题描述** SPIRAL 由两个连续模块组成： SPIRAL-integration（基于图域适应的数据集成）和 SPIRAL-alignment（基于集群感知的优化传输协调对齐）
+<img src="fig/SPIRAL.png">
+
+**5**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
 
 **期刊/时间** `Genome reserch / 2023 10` 
 
@@ -36,7 +54,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <img src="fig/past.png">
 
 
-**4**  [`MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance`](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
+**6**  [`MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance`](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
 
 **期刊/时间** `bioRxiv /2023.09` 
 
