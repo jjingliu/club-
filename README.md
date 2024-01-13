@@ -4,7 +4,7 @@
 
 ### 数据整合/对齐
 
-**1**  [`Partial alignment of multislice spatially resolved transcriptomics data`](https://pubmed.ncbi.nlm.nih.gov/37553263/)
+**1**  [`Partial alignment of multislice spatially resolved transcriptomics data`](https://www.biorxiv.org/content/10.1101/2023.01.08.523162v1.full.pdf)
 
 **期刊/时间** `Genome reserch / 2023 10` 
 
