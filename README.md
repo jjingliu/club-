@@ -17,21 +17,31 @@ PASTE在进行切片对齐时假设两个切片可以在整体的2D切片内（�
 <img src="fig/paste2_2.png">
 s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有占比大约为s的细胞参与了对齐。
 
-**2**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
-
-**期刊/时间** `Genome reserch / 2023 10` 
-
-**关键词** `Latent feature extraction` `self- attention`  `PAST`
-
-**问题描述** 基于自注意力框架来提取空间转录组数据的潜在特征
-
-
-**3**  [`STalign: Alignment of spatial transcriptomics data using diffeomorphic metric mapping`](https://www.nature.com/articles/s41467-023-43915-7)
+**2**  [`STalign: Alignment of spatial transcriptomics data using diffeomorphic metric mapping`](https://www.nature.com/articles/s41467-023-43915-7)
 
 **期刊/时间** `Nature Communications / 2023 12` 
 
 **关键词** `Alignment of spatial transcriptomics`  `LDDMM`
 
 **问题描述** 使用一个现有的图像映射算法LDDMM来对齐空间转录组数据
+<img src="fig/STalign.png">
 
-[MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
+**3**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
+
+**期刊/时间** `Genome reserch / 2023 10` 
+
+**关键词** `Latent feature extraction` `self- attention`  `PAST`
+
+**问题描述** 基于自注意力框架来提取空间转录组数据的潜在特征
+<img src="fig/past.png">
+
+
+**4**  [`MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance`](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
+
+**期刊/时间** `bioRxiv /2023.09` 
+
+**关键词** `transcriptomics data analysis` `grouped horseshoe distribution` `spot similarity graph` `MUSTANG`
+
+**问题描述** 空间转录组数据整合分析，最终得到的是所有spot的新的表示，并不强调空间坐标对应
+<img src="fig/MUSTANG.png">
+
