@@ -26,7 +26,18 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 使用一个现有的图像映射算法LDDMM来对齐空间转录组数据
 <img src="fig/STalign.png">
 
-**3**  [Integrating spatial transcriptomics data across different conditions, technologies and developmental stages](https://www.biorxiv.org/content/10.1101/2022.12.26.521888v1.full.pdf)
+
+**3**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
+
+**期刊/时间** `Nature Computational Science  / 2023 10` 
+
+**关键词** `integrating and aligning of spatial transcriptomics` `SPIRAL`
+
+**问题描述** SPIRAL 由两个连续模块组成： SPIRAL-integration（基于图域适应的数据集成）和 SPIRAL-alignment（基于集群感知的优化传输协调对齐）
+<img src="fig/SPIRAL.png">
+
+
+**4**  [Integrating spatial transcriptomics data across different conditions, technologies and developmental stages](https://www.biorxiv.org/content/10.1101/2022.12.26.521888v1.full.pdf)
 
 **期刊/时间** `Nature Computational Science  / 2023 10` 
 
@@ -35,14 +46,6 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** STAligner 的图注意神经网络，用于整合和对齐 ST 数据集，实现空间感知数据整合、同步空间域识别和下游比较分析。
 <img src="fig/STAligner.png">
 
-**4**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
-
-**期刊/时间** `Nature Computational Science  / 2023 10` 
-
-**关键词** `integrating and aligning of spatial transcriptomics` `SPIRAL`
-
-**问题描述** SPIRAL 由两个连续模块组成： SPIRAL-integration（基于图域适应的数据集成）和 SPIRAL-alignment（基于集群感知的优化传输协调对齐）
-<img src="fig/SPIRAL.png">
 
 **5**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
 
@@ -62,4 +65,35 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 空间转录组数据整合分析，最终得到的是所有spot的新的表示，并不强调空间坐标对应
 <img src="fig/MUSTANG.png">
+
+
+###空间域/空间可变基因识别
+**1**  [`STAMarker: determining spatial domain-specific variable genes with saliency maps in deep learning`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+
+**期刊/时间** `Nucleic Acids Research / 2023.10` 
+
+**关键词** `graph-attention autoencoders` `multilayer perceptron classifiers` `saliency map computation`
+
+**问题描述** 识别特定于空间域的空间可变基因
+<img src="fig/STAMarker.png">
+
+**2**  [`Probabilistic cell / domain-type assignment of spatial transcriptomics data with SpatialAnno`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
+
+**期刊/时间** `Nucleic Acids Research / 2023.11` 
+
+**关键词** `factor model` `Potts model`
+
+**问题描述** 利用大量非标记基因以及有关标记基因的“定性”信息进行空间转录组数据集注释
+<img src="fig/SpatialAnno.png">
+
+**3**  [`Mapping the topography of spatial gene expression with interpretable deep learning`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `bioRxiv /2023.10` 
+
+**关键词** `Isodepth` `spatial transcriptomics data` `spatial domain` `GASTON`
+
+**问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
+<img src="fig/GASTON.png">
+
+
 
