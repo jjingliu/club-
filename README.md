@@ -67,7 +67,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <img src="fig/MUSTANG.png">
 
 
-###空间域/空间可变基因识别
+### 空间域/空间可变基因识别
 **1**  [`STAMarker: determining spatial domain-specific variable genes with saliency maps in deep learning`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
 
 **期刊/时间** `Nucleic Acids Research / 2023.10` 
