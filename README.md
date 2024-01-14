@@ -1,4 +1,4 @@
-# Journal Club 学期汇总
+![image](https://github.com/jjingliu/club-/assets/102160648/29068b98-2355-4a5f-8e09-a7c8c4f4db04)# Journal Club 学期汇总
 
 ## 空间转录组相关
 
@@ -95,5 +95,105 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
 <img src="fig/GASTON.png">
 
+### 空间定位
+**1**  [`Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+
+**期刊/时间** `Nature communications  /2023.07` 
+
+**关键词** `Spatial transcriptomics` `scRNA-seq` `cell location recovery`
+
+**问题描述** 通过学习单细胞转录组和空间位置之间的关系，利用单细胞的基因表达信息来预测其位置信息
+<img src="fig/CeLEry.png">
+
+**2**  [`SiGra: single-cell spatial elucidation through an image-augmented graph transformer`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
+
+**期刊/时间** `Nature communications / 2023.09` 
+
+**关键词** `Spatial transcriptomics` `Graph transformer` `Multimodal data`
+
+**问题描述** 利用多通道免疫组化图像和基因表达数据，通过图卷积神经网络的方式，对细胞进行空间定位和分类
+<img src="fig/SiGra.png">
 
 
+
+## 单细胞相关
+### 多组学/多模态数据整合
+**1**  [`Integration of gene expression and DNA methylation data across different experiments`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+
+**期刊/时间** `Nucleic Acids Research  /2023.07` 
+
+**关键词** `MO/MD problem` `predictive model` `DNA methylation data`
+
+**问题描述** 通过学习一个根据甲基化数据预测基因表达的模型来进行数据整合
+<img src="fig/STAMarker.png">
+
+**2**  [`Integration of spatial and single-cell data across modalities with weakly linked features`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
+
+**期刊/时间** `Nature Biotechnology / 2023.09` 
+
+**关键词** `weak linkage`  `fuzzy smoothed embedding`
+
+**问题描述** 通过迭代共嵌入、数据平滑和细胞匹配，使用每个模态中的所有信息来获得数据集成
+<img src="fig/SpatialAnno.png">
+
+**3**  [`Stabilized mosaic single-cell data integration using unshared feature`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Nature Biotechnology / 2023.05` 
+
+**关键词** `non-overlapping features` `multi-hop`
+
+**问题描述** 在共享特征的基础上，利用非共享特征来稳定单细胞数据的整合
+<img src="fig/GASTON.png">
+
+**4**  [`Multi-task learning from multimodal single-cell omics with Matilda`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Nucleic Acids Research / 2023.10` 
+
+**关键词** `VAE` `fully-connected classification network`
+
+**问题描述** 用于多模态单细胞组学数据综合分析的多任务学习方法。通过利用任务之间的相互关系，在单个统一框架中执行数据模拟、降维、细胞类型分类和特征选择。
+<img src="fig/GASTON.png">
+
+**5**  [`scMultiSim: simulation of multi-modality single cell data guided by cell-cell interactions and gene regulatory networks`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Preprint / 2023.03` 
+
+**关键词** `simulation of multi-modality single cell data` `scMultiSim`
+
+**问题描述** 模拟生成单细胞多模态数据的方法
+<img src="fig/scMultiSim.png">
+
+**6**  [`Integrating SNVs and CNAs on a phylogenetic tree from single-cell DNA sequencing data`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Genome reserch / 2023.11` 
+
+**关键词** `Single-cell DNA sequencing` `evolutionary trees` `SNVs and CNAs integration`
+
+**问题描述** 将 SNV 和 CNA 整合到单细胞 DNA 测序数据的系统发育树上，得到一个更全面完整的系统发育树
+<img src="fig/`Integrating SNVs and CNA.png">
+
+**7**  [`Mapping disease regulatory circuits at cell-type resolution from single-cell multiomics data`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Nature computationalscience / 2023.06` 
+
+**关键词** `Circuit chromatin sites` `scATAC-seq` `scRNA-seq`
+
+**问题描述** 整合了来自不同条件的scRNA-seq和scATAC-seq数据，以识别与疾病相关的转录因子、染色质位点和基因作为调控回路
+<img src="fig/scMultiSim.png">
+
+**8**  [`scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Nature communications / 2023.09` 
+
+**关键词** `iterative integration` `heterogeneous transfer learning`
+
+**问题描述** 整合scRNA-seq和scATAC-seq数据,减少组学数据之间的差异，同时保留细胞类型之间的差异
+<img src="fig/`Integrating SNVs and CNA.png">
+
+
+
+
+
+### RNA速率
+
+## 蛋白质组学相关
