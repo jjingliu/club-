@@ -1,8 +1,12 @@
-![image](https://github.com/jjingliu/club-/assets/102160648/29068b98-2355-4a5f-8e09-a7c8c4f4db04)# Journal Club 学期汇总
+# Journal Club 学期汇总
 
 ## 空间转录组相关
 
+<details><summary> 
+  
 ### 数据整合/对齐
+</summary>
+
 
 **1**  [`Partial alignment of multislice spatially resolved transcriptomics data`](https://www.biorxiv.org/content/10.1101/2023.01.08.523162v1.full.pdf)
 
@@ -65,9 +69,14 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 空间转录组数据整合分析，最终得到的是所有spot的新的表示，并不强调空间坐标对应
 <img src="fig/MUSTANG.png">
+</details>
 
 
-### 空间域/空间可变基因识别
+<details><summary> 
+  
+### 空间域/空间可变基因识别 
+</summary>
+  
 **1**  [`STAMarker: determining spatial domain-specific variable genes with saliency maps in deep learning`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
 
 **期刊/时间** `Nucleic Acids Research / 2023.10` 
@@ -94,8 +103,13 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
 <img src="fig/GASTON.png">
+</details>
 
-### 空间定位
+<details><summary> 
+  
+### 空间定位 
+</summary>
+  
 **1**  [`Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
 
 **期刊/时间** `Nature communications  /2023.07` 
@@ -113,11 +127,32 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 利用多通道免疫组化图像和基因表达数据，通过图卷积神经网络的方式，对细胞进行空间定位和分类
 <img src="fig/SiGra.png">
+</details>
+
+<details><summary> 
+  
+### 解卷积 
+</summary>
+
+**1**  [`GTM-decon: guided-topic modeling of single-cell transcriptomes enables sub-cell-type and disease-subtype deconvolution of bulk transcriptomes`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+
+**期刊/时间** `Genome Biology / 2023.08` 
+
+**关键词** `Alignment of spatial transcriptomics` `PASTE2`
+
+**问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
+<img src="fig/CeLEry.png">
+</details>
 
 
 
 ## 单细胞相关
+
+<details><summary> 
+  
 ### 多组学/多模态数据整合
+</summary>
+
 **1**  [`Integration of gene expression and DNA methylation data across different experiments`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
 
 **期刊/时间** `Nucleic Acids Research  /2023.07` 
@@ -188,12 +223,69 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `iterative integration` `heterogeneous transfer learning`
 
 **问题描述** 整合scRNA-seq和scATAC-seq数据,减少组学数据之间的差异，同时保留细胞类型之间的差异
-<img src="fig/`Integrating SNVs and CNA.png">
+<img src="fig/Integrating SNVs and CNA.png">
+
+**8**  [`CMOT: Cross-Modality Optimal Transport for multimodal inference`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+
+**期刊/时间** `Genome Biology / 2023.07` 
+
+**关键词** `data integration` `Optimal Transport`  `CMOT`
+
+**问题描述** CMOT将现有多模态数据中的细胞对齐到一个共同的潜在空间，并从映射源细胞的另一种模态（目标）中推断细胞缺失的模态
+<img src="fig/CMOT.png">
 
 
 
+</details>
 
 
+<details><summary> 
+  
 ### RNA速率
+</summary>
+
+</details>
+
+<details><summary> 
+  
+### 基因调控
+</summary>
+**1**  [`Predicting the impact of sequence motifs on gene regulation using single-cell data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Genome Biology / 2023.08` 
+
+**关键词** `deconvolution` `Cell-type composition` `GTM-decon`
+
+**问题描述** 利用在单细胞数据上训练的卷积神经网络，推断调控基调和细胞类型特异性的重要性
+<img src="fig/STAMarker.png">
+
+</details>
+
 
 ## 蛋白质组学相关
+
+<details><summary> 
+  
+### 蛋白质生成
+</summary>
+
+
+
+</details>
+
+<details><summary> 
+  
+### 受配体对
+</summary>
+
+**1**  [`Computing the relative binding affinity of ligands based on a pairwise binding comparison network`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nature Computational Science /2023.10` 
+
+**关键词** `binding affinity prediction` `congeneric ligands` `PBCNet`
+
+**问题描述** 一种基于物理信息图注意机制的配对结合比较网络（PBCNet），专门用于同源配体之间相对结合亲和力的排序
+<img src="fig/PBCNet.png">
+
+
+</details>
