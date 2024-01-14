@@ -244,20 +244,106 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### RNA速率
 </summary>
 
+**1**  [`Unified fate mapping in multiview single-cell data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `bioRxiv /2023.07` 
+
+**关键词** `fate mapping` `microstate` `terminal state` `multiview` `single-cell data` `CellRank` `CellRank2`
+
+**问题描述** 结合多种信息，例如RNA velocity, similarity, pseudotime，预测每个细胞最终会分化到哪个状态，即terminal state
+
+<img src="fig/Scover.png">
+
+**2**  [`Unraveling dynamically encoded latent transcriptomic patterns in pancreatic cancer cells by topic modeling`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Cell genomics / 2023.09	` 
+
+**关键词** `topic modeling` `RNA velocity` `latent transcriptomic patterns` `DeltaTopic`
+
+**问题描述** 通过主题建模揭示单细胞中动态编码的潜在转录组模式
+
+<img src="fig/Scover.png">
+
+**3**  [`Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Cell reports / 2023.09` 
+
+**关键词** `RNA velocity` `infer single-cell transcriptomic dynamics` `structured dynamics` `deep learning` `LatentVelo` 
+
+**问题描述** 使用双系统（动力学系统和神经网络系统）框架，基于RNA nelocity来预测单细胞数据的分化过程
+
+<img src="fig/Scover.png">
+
+**4**  [`PhyloVelo enhances transcriptomic velocity field mapping using monotonically expressed genes`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nature Biotechnology/ 2023.07` 
+
+**关键词** `monotonically expressed genes` `lineage information` `the velocity of transcriptomic dynamics`
+
+**问题描述** 利用scRNA-seq中的MEGs和谱系信息计算scRNA-seq数据中的转录组速度场
+
+<img src="fig/`PhyloVelo.png">
+
+
+ 		
+
+
+
 </details>
 
 <details><summary> 
   
 ### 基因调控
 </summary>
+
 **1**  [`Predicting the impact of sequence motifs on gene regulation using single-cell data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
 **期刊/时间** `Genome Biology / 2023.08` 
 
-**关键词** `deconvolution` `Cell-type composition` `GTM-decon`
+**关键词** `infer motifs and cell type-specific importance` `Scover`
 
-**问题描述** 利用在单细胞数据上训练的卷积神经网络，推断调控基调和细胞类型特异性的重要性
-<img src="fig/STAMarker.png">
+**问题描述** 使用单细胞数据，预测序列基序对基因调控的影响 **目标** 确定哪些基因序列具有调控基因的功能并量化
+
+<img src="fig/Scover.png">
+
+**2**  [`Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research / 2023.05` 
+
+**关键词** `Gene Knockout Inference` `VGAE`
+
+**问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
+<img src="fig/VGAE.png">
+
+**3**  [`Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research / 2023.05` 
+
+**关键词** `ligand-receptor interactions` `downstream pathways`
+
+**问题描述** 将配体-受体相互作用与下游通路整合以在bulk和空间转录组数据上推断配受体细胞网络
+<img src="fig/BulkSignalR.png">
+
+**4**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research  / 2023.06` 
+
+**关键词** `external system` `signaling pathways`  `external signals`
+
+**问题描述** 用信号通路的先验知识来识别单细胞转录组数据中细胞接收的外部信号
+<img src="fig/exFINDER.png">
+
+**5**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research / 2023.12` 
+
+**关键词** `attributed heterogeneous network` `variational graph autoencoders` `adaptive weighted co-clustering`
+
+**问题描述** 检测功能分子模块
+<img src="fig/HetFCM.png">
+
+
+			
 
 </details>
 
