@@ -375,3 +375,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 
 </details>
+
+## 其它
+**1**  [`Revealing invisible cell phenotypes with conditional generative modeling`](https://www.nature.com/articles/s41467-023-42124-6)
+
+**期刊/时间** `Nature communications /2023.09` 
+
+**关键词** `Visual transformation` `Conditional GAN`
+
+**问题描述** 利用条件生成模型揭示不可见的细胞表型，将细胞图像从一种条件转化为另一种条件，从而消除自然细胞变异带来的影响
+<img src="fig/cGAN.png">
+
+
