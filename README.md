@@ -30,6 +30,16 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 使用一个现有的图像映射算法LDDMM来对齐空间转录组数据
 <img src="fig/STalign.png">
 
+**3**  [`Alignment of spatial genomics data using deep Gaussian processes`](https://www.nature.com/articles/s41592-023-01972-2)
+
+**期刊/时间** `Nature Methods  / 2023 08` 
+
+**关键词** `integrating and aligning of spatial transcriptomics` `deep Gaussian processes`
+
+**问题描述** 基于深度高斯过程对齐空间转录组数据
+<img src="fig/deep gaussian.png">
+
+
 
 **3**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
 
@@ -234,6 +244,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** CMOT将现有多模态数据中的细胞对齐到一个共同的潜在空间，并从映射源细胞的另一种模态（目标）中推断细胞缺失的模态
 <img src="fig/CMOT.png">
 
+**9**  [`MultiVI: deep generative model for the integration of multimodal data`](https://www.nature.com/articles/s41592-023-01909-9)
+
+**期刊/时间** `Nature Methods / 2023.06` 
+
+**关键词** `deep generative model` `data integration`
+
+**问题描述** MultiVI 是一个用于多模态数据集概率分析的深度生成模型，也支持它们与单模态数据集的整合。
+<img src="fig/MultiVI.png">
+
 
 
 </details>
@@ -341,7 +360,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 检测功能分子模块
 <img src="fig/HetFCM.png">
-</details>
+
 
 **6**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.pnas.org/doi/epdf/10.1073/pnas.2206612120)
 
@@ -351,7 +370,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
 <img src="fig/TREDNet.png">
-
+</details>
 <details><summary> 
   
 ### 其它
@@ -377,6 +396,23 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 <img src="fig/SCA.png">
 
+**3**  [`SEACells infers transcriptional and epigenomic cellular states from single-cell genomics data`](https://www.nature.com/articles/s41587-023-01716-9)
+
+**期刊/时间** `Nature Biotechnology/ 2023.03` 
+
+**关键词** `kernel archetypal analysis` `graph-based algorithm` `manifold learning`
+
+**问题描述** 识别元细胞（代表不同细胞状态的细胞组，其中元细胞内的变异是由于技术而非生物来源）
+
+**4**  [`Cell-type-specific co-expression inference from single cell RNA-sequencing data`](https://www.nature.com/articles/s41467-023-40503-7)
+
+**期刊/时间** `Nature Communications / 2023.08` 
+
+**关键词** `scRNA-seq` `cell-type-specific co-expressions`
+
+**问题描述** 从单细胞 RNA 测序数据推断细胞类型特异性共表达
+
+<img src="fig/cell-type-specific co-expreesion.png">
 
 </details>
 
