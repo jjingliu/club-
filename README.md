@@ -384,7 +384,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### RNA速率
 </summary>
 
-**1**  [`Unified fate mapping in multiview single-cell data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**1**  [`Unified fate mapping in multiview single-cell data`](https://www.biorxiv.org/content/10.1101/2023.07.19.549685v1.full.pdf)
 
 **期刊/时间** `bioRxiv /2023.07` 
 
@@ -392,9 +392,11 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 结合多种信息，例如RNA velocity, similarity, pseudotime，预测每个细胞最终会分化到哪个状态，即terminal state
 
-<img src="fig/Scover.png">
+<details><summary> CellRank 2 </summary>
+<img src="fig/CellRank 2.png"></details>
 
-**2**  [`Unraveling dynamically encoded latent transcriptomic patterns in pancreatic cancer cells by topic modeling`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**2**  [`Unraveling dynamically encoded latent transcriptomic patterns in pancreatic cancer cells by topic modeling`](https://www.sciencedirect.com/science/article/pii/S2666979X23001854)
 
 **期刊/时间** `Cell genomics / 2023.09	` 
 
@@ -402,7 +404,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 通过主题建模揭示单细胞中动态编码的潜在转录组模式
 
-<img src="fig/Scover.png">
+<details><summary> DeltaTopic </summary>
+<img src="fig/DeltaTopic.png"></details>
 
 **3**  [`Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -412,7 +415,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 使用双系统（动力学系统和神经网络系统）框架，基于RNA nelocity来预测单细胞数据的分化过程
 
-<img src="fig/Scover.png">
+<details><summary> MultiVI </summary>
+<img src="fig/Scover.png"></details>
 
 **4**  [`PhyloVelo enhances transcriptomic velocity field mapping using monotonically expressed genes`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -422,11 +426,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 利用scRNA-seq中的MEGs和谱系信息计算scRNA-seq数据中的转录组速度场
 
-<img src="fig/`PhyloVelo.png">
-
-
- 		
-
+<details><summary> PhyloVelo </summary>
+<img src="fig/PhyloVelo.png"></details>
 
 
 </details>
@@ -733,7 +734,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `CLIP-seq crosslink count distribution` `protein-RNA interactions` `RBPNet`
 
 **问题描述** RBPNet能从单核苷酸分辨率的 RNA 序列预测 CLIP-seq 交联次数分布, 蛋白质-RNA 相互作用的估算。将原始信号建模为蛋白质特异性信号和背景信号的混合物，从而进行偏差校正
-<img src="fig/RBPNet.png">
+<details><summary> RBPNet </summary><img src="fig/RBPNet.png"></details>
 
 **2**  [`Multi-view manifold learning of human brain-state trajectories`](https://www.nature.com/articles/s43588-023-00419-0)
 
@@ -742,7 +743,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `T-PHATE` `fMRI`
 
 **问题描述** 这篇文章主要解决了如何将时间序列数据嵌入到低维空间中的问题
-<img src="fig/T-PHATE.png">
+<details><summary> T-PHATE </summary><img src="fig/T-PHATE.png"></details>
 
 **3**  [`Modeling and predicting cancer clonal evolution with reinforcement learning`](https://genome.cshlp.org/content/early/2023/08/10/gr.277672.123.full.pdf+html)
 
@@ -751,7 +752,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `clonal evolution` `reinforcement learning` `CloMu`
 
 **问题描述** CloMu 使用通过强化学习，根据克隆上现有的突变确定新突变的概率。CloMu 支持多种预测任务，包括确定进化轨迹、树选择、突变之间的因果关系和互换性以及突变适应性。
-<img src="fig/CloMu.png">
+<details><summary> CloMu </summary><img src="fig/CloMu.png"></details>
 
 
 
