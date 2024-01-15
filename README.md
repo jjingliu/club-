@@ -343,6 +343,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <img src="fig/HetFCM.png">
 </details>
 
+**6**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.pnas.org/doi/epdf/10.1073/pnas.2206612120)
+
+**期刊/时间** `PNAS /2023.06` 
+
+**关键词** `genetic associations` `deep learning` `epigenomics`
+
+**问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
+<img src="fig/TREDNet.png">
+
 <details><summary> 
   
 ### 其它
@@ -448,12 +457,5 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 这篇文章主要解决了如何将时间序列数据嵌入到低维空间中的问题
 <img src="fig/T-PHATE.png">
 
-**3**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.nature.com/articles/s41467-023-42124-6)
 
-**期刊/时间** `PNAS /2023.06` 
-
-**关键词** `genetic associations` `deep learning` `epigenomics`
-
-**问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
-<img src="fig/T2D.png">
 
