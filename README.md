@@ -418,7 +418,59 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <img src="fig/TREDNet.png">
 </details>
 <details><summary> 
-  
+
+### 细胞扰动
+</summary>
+
+**1**  [`A new Bayesian factor analysis method improves detection of genes and biological processes affected by perturbations in single-cell CRISPR screening`](https://www.nature.com/articles/s41592-023-02017-4)
+
+**期刊/时间** `Nature Methods / 2023.09` 
+
+**关键词** `Bayesian factor analysis` `cell perturbations` `GSFA`
+
+**问题描述** GSFA类似于矩阵分解，将基因表达矩阵分解，并对分解后的矩阵进行生物意义上的下游分析。
+<img src="fig/GSFA.png">
+
+**2**  [`Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research / 2023.05` 
+
+**关键词** `Gene Knockout Inference` `VGAE`
+
+**问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
+<img src="fig/VGAE.png">
+
+**3**  [`Predicting transcriptional outcomes of novel multigene perturbations with GEARS`](https://www.nature.com/articles/s41587-023-01905-6)
+
+**期刊/时间** `Nature Biotechnology / 2023.08` 
+
+**关键词** `deep learning` `a knowledge graph of gene-gene relationships`
+
+**问题描述** 预测对单基因和`多基因`扰动的转录反应
+<img src="fig/GEARS.png">
+
+**4**  [`Causal identification of single-cell experimental perturbation effects with CINEMA-OT`](https://www.nature.com/articles/s41592-023-02040-5)
+
+**期刊/时间** `Nature Biotechnology / 2023.08` 
+
+**关键词** `causal independent effect` `optimal transport` `CINEMA-OT`
+
+**问题描述** 一种基于因果推断的单细胞扰动分析方法，称为CINEMA-OT（因果独立效应模块归因+最优传输）。CINEMA-OT将干扰变异源从扰动效应中分离出来，以获得反事实细胞对的最佳传输匹配。这些细胞对代表了因果扰动反应，并能进行一系列下游分析，如个体治疗效果分析、反应聚类、归因分析和协同分析。
+<img src="fig/CINEMA-OT.png">
+
+**5**  [`Learning single-cell perturbation responses using neural optimal transport`](https://www.nature.com/articles/s41592-023-01969-x)
+
+**期刊/时间** `Nature Methods / 2023.09` 
+
+**关键词**  `optimal transport` `CellOT`
+
+**问题描述** 一种基于神经最优传输的方法，称为CellOT，用于预测细胞在扰动下的状态变化。该方法基于单细胞表达谱的概率分布，通过学习最优传输映射来模拟细胞在扰动下的分布变化。
+<img src="fig/CellOT.png">
+</details>
+
+
+<details><summary> 
+
 ### 其它
 </summary>
 
