@@ -304,68 +304,75 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <details><summary> StabMap </summary>
 <img src="fig/StabMap.png"></details>
 
-**4**  [`Multi-task learning from multimodal single-cell omics with Matilda`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**4**  [`Multi-task learning from multimodal single-cell omics with Matilda`](Multi-task learning from multimodal single-cell omics with Matilda)
 
 **期刊/时间** `Nucleic Acids Research / 2023.10` 
 
-**关键词** `VAE` `fully-connected classification network`
+**关键词** `VAE` `fully-connected classification network` `Matilda`
 
 **问题描述** 用于多模态单细胞组学数据综合分析的多任务学习方法。通过利用任务之间的相互关系，在单个统一框架中执行数据模拟、降维、细胞类型分类和特征选择。
-<img src="fig/GASTON.png">
+<details><summary> Matilda </summary>
+<img src="fig/Matilda.png"></details>
 
-**5**  [`scMultiSim: simulation of multi-modality single cell data guided by cell-cell interactions and gene regulatory networks`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**5**  [`scMultiSim: simulation of multi-modality single cell data guided by cell-cell interactions and gene regulatory networks`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10055660/)
 
 **期刊/时间** `Preprint / 2023.03` 
 
 **关键词** `simulation of multi-modality single cell data` `scMultiSim`
 
 **问题描述** 模拟生成单细胞多模态数据的方法
-<img src="fig/scMultiSim.png">
+<details><summary> scMultiSim </summary>
+<img src="fig/scMultiSim.png"></details>
 
-**6**  [`Integrating SNVs and CNAs on a phylogenetic tree from single-cell DNA sequencing data`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**6**  [`Integrating SNVs and CNAs on a phylogenetic tree from single-cell DNA sequencing data`](https://genome.cshlp.org/content/33/11/2002.full.pdf+html)
 
 **期刊/时间** `Genome reserch / 2023.11` 
 
-**关键词** `Single-cell DNA sequencing` `evolutionary trees` `SNVs and CNAs integration`
+**关键词** `Single-cell DNA sequencing` `evolutionary trees` `SNVs and CNAs integration` `SCsnvcna`
 
 **问题描述** 将 SNV 和 CNA 整合到单细胞 DNA 测序数据的系统发育树上，得到一个更全面完整的系统发育树
-<img src="fig/`Integrating SNVs and CNA.png">
+<details><summary> SCsnvcna </summary>
+<img src="fig/SCsnvcna.png"></details>
 
-**7**  [`Mapping disease regulatory circuits at cell-type resolution from single-cell multiomics data`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**7**  [`Mapping disease regulatory circuits at cell-type resolution from single-cell multiomics data`](https://www.nature.com/articles/s43588-023-00476-5)
 
 **期刊/时间** `Nature computationalscience / 2023.06` 
 
-**关键词** `Circuit chromatin sites` `scATAC-seq` `scRNA-seq`
+**关键词** `Circuit chromatin sites` `scATAC-seq` `scRNA-seq` `MAGICAL`
 
 **问题描述** 整合了来自不同条件的scRNA-seq和scATAC-seq数据，以识别与疾病相关的转录因子、染色质位点和基因作为调控回路
-<img src="fig/scMultiSim.png">
+<details><summary> MAGICAL </summary>
+<img src="fig/MAGICAL.png"></details>
 
-**8**  [`scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**8**  [`scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration`](https://www.nature.com/articles/s41467-023-41795-5)
 
 **期刊/时间** `Nature communications / 2023.09` 
 
 **关键词** `iterative integration` `heterogeneous transfer learning`
 
 **问题描述** 整合scRNA-seq和scATAC-seq数据,减少组学数据之间的差异，同时保留细胞类型之间的差异
-<img src="fig/Integrating SNVs and CNA.png">
+<img src="fig/Integrating SNVs and CNA.png"><details><summary> StabMap </summary>
+<img src="fig/StabMap.png"></details>
 
-**8**  [`CMOT: Cross-Modality Optimal Transport for multimodal inference`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**9**  [`CMOT: Cross-Modality Optimal Transport for multimodal inference`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02989-8)
 
 **期刊/时间** `Genome Biology / 2023.07` 
 
 **关键词** `data integration` `Optimal Transport`  `CMOT`
 
 **问题描述** CMOT将现有多模态数据中的细胞对齐到一个共同的潜在空间，并从映射源细胞的另一种模态（目标）中推断细胞缺失的模态
-<img src="fig/CMOT.png">
+<details><summary> CMOT </summary>
+<img src="fig/CMOT.png"></details>
 
-**9**  [`MultiVI: deep generative model for the integration of multimodal data`](https://www.nature.com/articles/s41592-023-01909-9)
+**10**  [`MultiVI: deep generative model for the integration of multimodal data`](https://www.nature.com/articles/s41592-023-01909-9)
 
 **期刊/时间** `Nature Methods / 2023.06` 
 
 **关键词** `deep generative model` `data integration`
 
 **问题描述** MultiVI 是一个用于多模态数据集概率分析的深度生成模型，也支持它们与单模态数据集的整合。
-<img src="fig/MultiVI.png">
+<details><summary> MultiVI </summary>
+<img src="fig/MultiVI.png"></details>
 
 
 
