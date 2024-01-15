@@ -574,6 +574,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 一种基于物理信息图注意机制的配对结合比较网络（PBCNet），专门用于同源配体之间相对结合亲和力的排序
 <img src="fig/PBCNet.png">
 
+**2**  [`Deep-learning-enabled protein–protein interaction analysis for prediction of SARS-CoV-2 infectivity and variant evolution`](https://www.nature.com/articles/s41591-023-02483-5)
+
+**期刊/时间** `Nature Medicine / 2023.07` 
+
+**关键词** `protein–protein interaction` `congeneric ligands` `PBCNet`
+
+**问题描述** 基于化合物的结构预测 PPI
+<img src="fig/UniBind.png">
+
 </details>
 
 
