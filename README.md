@@ -583,6 +583,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 基于化合物的结构预测 PPI
 <img src="fig/UniBind.png">
 
+**3**  [`Calibrated geometric deep learning improves kinase–drug binding predictions`](https://www.nature.com/articles/s42256-023-00751-0)
+
+**期刊/时间** `Nature Machine Intelligence / 2023.11` 
+
+**关键词** `kinase–drug binding` `KDBNet`
+
+**问题描述** KDBNet 结合三维结构数据与不确定性校准，显著提升激酶-药物结合预测准确性
+<img src="fig/KDBNet.png">
+
 </details>
 
 
@@ -617,6 +626,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** HelixFold-Single结合了大规模蛋白质语言模型（PLM）和AlphaFold2的几何学习能力，不依赖多序列比对（MSA），仅从初级结构（氨基酸序列）预测原子三维坐标，从而实现对蛋白质结构的准确预测。
 <img src="fig/HelixFold.png">
+
+**4**  [`Deep domain adversarial neural network for the deconvolution of cell type mixtures in tissue proteome profiling`](https://www.nature.com/articles/s42256-023-00737-y)
+
+**期刊/时间** `Nature Machine Intelligence / 2023.10` 
+
+**关键词** `deconvolution` `scpDeconv`
+
+**问题描述** 基于蛋白质组学对细胞类型解卷积，没有空间信息
+<img src="fig/scpDeconv.png">
 
 
 
