@@ -39,7 +39,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `integrating and aligning of spatial transcriptomics` `deep Gaussian processes`
 
 **问题描述** 基于深度高斯过程对齐空间转录组数据
-<img src="fig/deep gaussian.png">
+<details><summary> deep GP </summary>
+<img src="fig/deep gaussian.png"></details>
 
 
 
