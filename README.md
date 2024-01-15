@@ -686,7 +686,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Visual transformation` `Conditional GAN`
 
 **问题描述** 利用条件生成模型揭示不可见的细胞表型，将细胞图像从一种条件转化为另一种条件，从而消除自然细胞变异带来的影响
-<img src="fig/cGAN.png">
+<details><summary> cGAN </summary><img src="fig/cGAN.png"></details>
 
 **2**  [`GeneSegNet: a deep learning framework for cell segmentation by integrating gene expression and imaging`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03054-0)
 
@@ -695,8 +695,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `cell segmentation` `identify cell boundary` `GeneSegNet`
 
 **问题描述** 基于深度学习的方法--GeneSegNet，能整合基因表达和成像信息来进行细胞分割
-<img src="fig/GeneSegNet_1.png">
-<img src="fig/GeneSegNet_2.png">
+<details><summary> GeneSegNet </summary><img src="fig/GeneSegNet_1.png">
+<img src="fig/GeneSegNet_2.png"></details>
 	
 </details>
 
@@ -712,7 +712,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `multi-tissue` `Hypergraph` `HYFA`
 
 **问题描述** 利用超图，实现`跨组织&跨样本`的信息交流
-<img src="fig/HYFA.png">
+<details><summary> HYFA </summary><img src="fig/HYFA.png"></details>
 
 **2**  [`Extrapolating heterogeneous time-series gene expression data using Sagittarius`](https://www.nature.com/articles/s42256-023-00679-5)
 
@@ -721,7 +721,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `heterogeneous` `time-series gene expression` `Sagittarius`
 
 **问题描述** Sagittarius学习一个多数据模态共享的低纬度空间，并从中生成模拟的时间序列测量数据，从而明确地建模未对齐的时间点和时间序列之间的条件批次效应，并使该模型广泛适用于不同的生物学环境。
-<img src="fig/Sagittarius.png">
+<details><summary> Sagittarius </summary><img src="fig/Sagittarius.png"></details>
 
 </details>
 
