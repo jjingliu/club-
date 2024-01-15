@@ -138,10 +138,10 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **期刊/时间** `Genome Biology / 2023.08` 
 
-**关键词** `Alignment of spatial transcriptomics` `PASTE2`
+**关键词** `deconvolution` `Cell-type composition` `GTM-decon`
 
 **问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
-<img src="fig/CeLEry.png">
+<img src="fig/GTM-decon.png">
 </details>
 
 
@@ -341,11 +341,38 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 检测功能分子模块
 <img src="fig/HetFCM.png">
+</details>
 
+<details><summary> 
+  
+### 其它
+</summary>
 
-			
+**1**  [`DISCERN: deep single-cell expression reconstruction for improved cell clustering and cell subtype and state detection`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03049-x)
+
+**期刊/时间** `Genome Biology / 2023.09` 
+
+**关键词** `deep generative network` `DISCERN`
+
+**问题描述** 新型深度生成网络 DISCERN，利用参考数据集精确重建缺失的单细胞基因表达
+
+<img src="fig/DISCERN.png">
+
+**2**  [`SCA: recovering single-cell heterogeneity through information-based dimensionality reduction`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02998-7)
+
+**期刊/时间** `Genome Biology /2023.08` 
+
+**关键词** `Dimensionality reduction` `SCA`
+
+**问题描述** 一种新技术，利用信息理论中的惊奇概念进行降维，以促进更有意义的信号提取
+
+<img src="fig/SCA.png">
+
 
 </details>
+
+
+
 
 
 ## 蛋白质组学相关
@@ -364,7 +391,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### 受配体对
 </summary>
 
-**1**  [`Computing the relative binding affinity of ligands based on a pairwise binding comparison network`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**1**  [`Computing the relative binding affinity of ligands based on a pairwise binding comparison network`](https://www.nature.com/articles/s43588-023-00529-9)
 
 **期刊/时间** `Nature Computational Science /2023.10` 
 
@@ -377,6 +404,11 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 </details>
 
 ## 其它
+<details><summary> 
+	
+### 细胞图像
+</summary>
+ 
 **1**  [`Revealing invisible cell phenotypes with conditional generative modeling`](https://www.nature.com/articles/s41467-023-42124-6)
 
 **期刊/时间** `Nature communications /2023.09` 
@@ -385,6 +417,27 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 利用条件生成模型揭示不可见的细胞表型，将细胞图像从一种条件转化为另一种条件，从而消除自然细胞变异带来的影响
 <img src="fig/cGAN.png">
+
+**2**  [`GeneSegNet: a deep learning framework for cell segmentation by integrating gene expression and imaging`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03054-0)
+
+**期刊/时间** `Genome Biology / 2023.10` 
+
+**关键词** `cell segmentation` `identify cell boundary` `GeneSegNet`
+
+**问题描述** 基于深度学习的方法--GeneSegNet，能整合基因表达和成像信息来进行细胞分割
+<img src="fig/GeneSegNet_1.png">
+<img src="fig/GeneSegNet_2.png">
+	
+</details>
+
+**1**  [`Towards in silico CLIP-seq: predicting protein-RNA interaction via sequence-to-signal learning`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03015-7)
+
+**期刊/时间** `Genome Biology / 2023.08` 
+
+**关键词** `CLIP-seq crosslink count distribution` `protein-RNA interactions` `RBPNet`
+
+**问题描述** RBPNet能从单核苷酸分辨率的 RNA 序列预测 CLIP-seq 交联次数分布, 蛋白质-RNA 相互作用的估算。将原始信号建模为蛋白质特异性信号和背景信号的混合物，从而进行偏差校正
+<img src="fig/RBPNet.png">
 
 **2**  [`Multi-view manifold learning of human brain-state trajectories`](https://www.nature.com/articles/s43588-023-00419-0)
 
