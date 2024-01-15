@@ -593,7 +593,6 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 </summary>
 
 
-
 </details>
 
 <details><summary> 
@@ -672,9 +671,8 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 基于蛋白质组学对细胞类型解卷积，没有空间信息
 <img src="fig/scpDeconv.png">
 
-
-
 </details>
+
 ## 其它问题
 <details><summary> 
 	
