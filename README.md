@@ -152,8 +152,54 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
 <img src="fig/GTM-decon.png">
+
+**2**  [`SCS: cell segmentation for high-resolution spatial transcriptomics`](https://www.nature.com/articles/s41592-023-01939-3)
+
+**期刊/时间** `Nature Methods / 2022.12` 
+
+**关键词** `deconvolution` `cell segmentation` `SCS`
+
+**问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
+<img src="fig/SCS.png">
+
+**3**  [`GeneSegNet: a deep learning framework for cell segmentation by integrating gene expression and imaging`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03054-0)
+
+**期刊/时间** `Genome Biology / 2023.10` 
+
+**关键词** `cell segmentation` `identify cell boundary` `GeneSegNet`
+
+**问题描述** 基于深度学习的方法--GeneSegNet，能整合基因表达和成像信息来进行细胞分割
+<img src="fig/GeneSegNet_1.png">
+<img src="fig/GeneSegNet_2.png">
+
 </details>
 
+<details><summary> 
+  
+### 细胞通讯 
+</summary>
+
+**1**  [`SpatialDM for rapid identification of spatially co-expressed ligand–receptor and revealing cell–cell communication patterns`](https://www.nature.com/articles/s41467-023-39608-w)
+
+**期刊/时间** `Nature Methods / 2023.09` 
+
+**关键词** `temporal and spatial omics data` `review`
+
+**问题描述** 利用双变量 Moran 统计来检测空间共表达的配体和受体对、它们的局部相互作用点（单点分辨率）和通信模式。SpatialDM 揭示了有希望的通信模式并识别了条件之间的差异相互作用，从而能够发现特定环境的细胞合作和信号传导。
+<img src="fig/SpatialDM.png">
+
+**2**  [`Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**期刊/时间** `Nucleic Acids Research / 2023.05` 
+
+**关键词** `ligand-receptor interactions` `downstream pathways`
+
+**问题描述** 将配体-受体相互作用与下游通路整合以在bulk和空间转录组数据上推断配受体细胞网络
+<img src="fig/BulkSignalR.png">
+
+
+
+</details>
 
 
 ## 单细胞相关
@@ -334,16 +380,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
 <img src="fig/VGAE.png">
 
-**3**  [`Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
-
-**期刊/时间** `Nucleic Acids Research / 2023.05` 
-
-**关键词** `ligand-receptor interactions` `downstream pathways`
-
-**问题描述** 将配体-受体相互作用与下游通路整合以在bulk和空间转录组数据上推断配受体细胞网络
-<img src="fig/BulkSignalR.png">
-
-**4**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**3**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
 **期刊/时间** `Nucleic Acids Research  / 2023.06` 
 
@@ -352,7 +389,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 用信号通路的先验知识来识别单细胞转录组数据中细胞接收的外部信号
 <img src="fig/exFINDER.png">
 
-**5**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**4**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
 **期刊/时间** `Nucleic Acids Research / 2023.12` 
 
@@ -362,7 +399,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 <img src="fig/HetFCM.png">
 
 
-**6**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.pnas.org/doi/epdf/10.1073/pnas.2206612120)
+**5**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.pnas.org/doi/epdf/10.1073/pnas.2206612120)
 
 **期刊/时间** `PNAS /2023.06` 
 
