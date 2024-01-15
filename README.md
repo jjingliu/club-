@@ -113,6 +113,16 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
 <img src="fig/GASTON.png">
+
+**3**  [`nnSVG for the scalable identification of spatially variable genes using nearest-neighbor Gaussian processes`](https://www.nature.com/articles/s41467-023-39748-z)
+
+**期刊/时间** `Nature Communications / 2023.07` 
+
+**关键词** `spatially variable genes` `nearest-neighbor Gaussian processes`
+
+**问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
+<img src="fig/GASTON.png">
+
 </details>
 
 <details><summary> 
