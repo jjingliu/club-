@@ -479,10 +479,10 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **期刊/时间** `PNAS /2023.06` 
 
-**关键词** `genetic associations` `deep learning` `epigenomics`
+**关键词** `genetic associations` `deep learning` `epigenomics` `TREDNet`
 
 **问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
-<img src="fig/TREDNet.png"><details><summary> T2D </summary><img src="fig/T2D.png"></details>
+<details><summary> TREDNet </summary><img src="fig/TREDNet.png"></details>
 </details>
 
 <details><summary> 
