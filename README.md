@@ -44,54 +44,59 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 
 
-**3**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
+**4**  [SPIRAL: integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6)
 
 **期刊/时间** `Nature Computational Science  / 2023 10` 
 
 **关键词** `integrating and aligning of spatial transcriptomics` `SPIRAL`
 
 **问题描述** SPIRAL 由两个连续模块组成： SPIRAL-integration（基于图域适应的数据集成）和 SPIRAL-alignment（基于集群感知的优化传输协调对齐）
-<img src="fig/SPIRAL.png">
+<details><summary> SPIRAL </summary>
+<img src="fig/SPIRAL.png"></details>
 
 
-**4**  [Integrating spatial transcriptomics data across different conditions, technologies and developmental stages](https://www.biorxiv.org/content/10.1101/2022.12.26.521888v1.full.pdf)
+**5**  [Integrating spatial transcriptomics data across different conditions, technologies and developmental stages](https://www.biorxiv.org/content/10.1101/2022.12.26.521888v1.full.pdf)
 
 **期刊/时间** `Nature Computational Science  / 2023 10` 
 
 **关键词** `Integrating spatial transcriptomics data` `STAligner`
 
 **问题描述** STAligner 的图注意神经网络，用于整合和对齐 ST 数据集，实现空间感知数据整合、同步空间域识别和下游比较分析。
-<img src="fig/STAligner.png">
+<details><summary> STAligner </summary>
+<img src="fig/STAligner.png"></details>
 
 
-**5**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
+
+**6**  [`Latent feature extraction with a prior-based self-attention framework for spatial transcriptomics`](https://genome.cshlp.org/content/33/10/1757.full)
 
 **期刊/时间** `Genome reserch / 2023 10` 
 
 **关键词** `Latent feature extraction` `self- attention`  `PAST`
 
 **问题描述** 基于自注意力框架来提取空间转录组数据的潜在特征
-<img src="fig/past.png">
+<details><summary> past </summary>
+<img src="fig/past.png"></details>
 
-
-**6**  [`MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance`](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
+**7**  [`MUSTANG: multi-sample spatial transcriptomics data analysis with cross-sample transcriptional similarity guidance`](https://www.biorxiv.org/content/10.1101/2023.09.08.556895v1.full.pdf)
 
 **期刊/时间** `bioRxiv /2023.09` 
 
 **关键词** `transcriptomics data analysis` `grouped horseshoe distribution` `spot similarity graph` `MUSTANG`
 
 **问题描述** 空间转录组数据整合分析，最终得到的是所有spot的新的表示，并不强调空间坐标对应
-<img src="fig/MUSTANG.png">
+<details><summary> MUSTANG </summary>
+<img src="fig/MUSTANG.png"></details>
 
-**7**  [`Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks`](https://www.nature.com/articles/s42256-023-00734-1)
+
+**8**  [`Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks`](https://www.nature.com/articles/s42256-023-00734-1)
 
 **期刊/时间** `Nature Machine Intelligence /2023.10` 
 
 **关键词** `transcriptomics data analysis` `STitch3D`
 
 **问题描述** 空间转录组数据整合分析，构建3D-graph
-<img src="fig/STitch3D.png">
-
+<details><summary> STitch3D </summary>
+<img src="fig/STitch3D.png"></details>
 
 </details>
 
@@ -108,7 +113,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `graph-attention autoencoders` `multilayer perceptron classifiers` `saliency map computation`
 
 **问题描述** 识别特定于空间域的空间可变基因
-<img src="fig/STAMarker.png">
+<details><summary> STAMarker </summary>
+<img src="fig/STAMarker.png"></details>
+
 
 **2**  [`Probabilistic cell / domain-type assignment of spatial transcriptomics data with SpatialAnno`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
 
@@ -117,7 +124,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `factor model` `Potts model`
 
 **问题描述** 利用大量非标记基因以及有关标记基因的“定性”信息进行空间转录组数据集注释
-<img src="fig/SpatialAnno.png">
+<details><summary> SpatialAnno </summary>
+<img src="fig/SpatialAnno.png"></details>
+
 
 **3**  [`Mapping the topography of spatial gene expression with interpretable deep learning`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
 
@@ -126,7 +135,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Isodepth` `spatial transcriptomics data` `spatial domain` `GASTON`
 
 **问题描述** 从 SRT 数据中识别具有空间变化表达的空间域和/或基因
-<img src="fig/GASTON.png">
+<details><summary> GASTON </summary>
+<img src="fig/GASTON.png"></details>
+
 
 **4**  [`nnSVG for the scalable identification of spatially variable genes using nearest-neighbor Gaussian processes`](https://www.nature.com/articles/s41467-023-39748-z)
 
@@ -143,23 +154,27 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### 空间定位 
 </summary>
   
-**1**  [`Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+**1**  [`Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry`](https://www.nature.com/articles/s41467-023-39895-3)
 
 **期刊/时间** `Nature communications  /2023.07` 
 
 **关键词** `Spatial transcriptomics` `scRNA-seq` `cell location recovery`
 
 **问题描述** 通过学习单细胞转录组和空间位置之间的关系，利用单细胞的基因表达信息来预测其位置信息
-<img src="fig/CeLEry.png">
+<details><summary> CeLEry </summary>
+<img src="fig/CeLEry.png"></details>
 
-**2**  [`SiGra: single-cell spatial elucidation through an image-augmented graph transformer`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
+
+**2**  [`SiGra: single-cell spatial elucidation through an image-augmented graph transformer`](https://www.nature.com/articles/s41467-023-41437-w)
 
 **期刊/时间** `Nature communications / 2023.09` 
 
 **关键词** `Spatial transcriptomics` `Graph transformer` `Multimodal data`
 
 **问题描述** 利用多通道免疫组化图像和基因表达数据，通过图卷积神经网络的方式，对细胞进行空间定位和分类
-<img src="fig/SiGra.png">
+<details><summary> SiGra </summary>
+<img src="fig/SiGra.png"></details>
+
 </details>
 
 <details><summary> 
@@ -167,14 +182,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### 解卷积 
 </summary>
 
-**1**  [`GTM-decon: guided-topic modeling of single-cell transcriptomes enables sub-cell-type and disease-subtype deconvolution of bulk transcriptomes`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+**1**  [`GTM-decon: guided-topic modeling of single-cell transcriptomes enables sub-cell-type and disease-subtype deconvolution of bulk transcriptomes`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03034-4)
 
 **期刊/时间** `Genome Biology / 2023.08` 
 
 **关键词** `deconvolution` `Cell-type composition` `GTM-decon`
 
 **问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
-<img src="fig/GTM-decon.png">
+<details><summary> GTM-decon </summary>
+<img src="fig/GTM-decon.png"></details>
 
 **2**  [`SCS: cell segmentation for high-resolution spatial transcriptomics`](https://www.nature.com/articles/s41592-023-01939-3)
 
@@ -182,8 +198,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **关键词** `deconvolution` `cell segmentation` `SCS`
 
-**问题描述** 用于解卷积的引导主题模型（GTM-decon），能从单细胞 RNA-seq 数据中自动推断细胞类型特异性基因主题分布，用于解卷积批量转录组
-<img src="fig/SCS.png">
+**问题描述** 类似解卷积（spot与cell地位对调）
+<details><summary> SCS </summary>
+<img src="fig/SCS.png"></details>
 
 **3**  [`GeneSegNet: a deep learning framework for cell segmentation by integrating gene expression and imaging`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03054-0)
 
@@ -192,8 +209,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `cell segmentation` `identify cell boundary` `GeneSegNet`
 
 **问题描述** 基于深度学习的方法--GeneSegNet，能整合基因表达和成像信息来进行细胞分割
+<details><summary> GeneSegNet </summary>
 <img src="fig/GeneSegNet_1.png">
-<img src="fig/GeneSegNet_2.png">
+<img src="fig/GeneSegNet_2.png"></details>
 
 </details>
 
@@ -208,24 +226,28 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **关键词** `temporal and spatial omics data` `review`
 
-**问题描述** 利用双变量 Moran 统计来检测空间共表达的配体和受体对、它们的局部相互作用点（单点分辨率）和通信模式。SpatialDM 揭示了有希望的通信模式并识别了条件之间的差异相互作用，从而能够发现特定环境的细胞合作和信号传导。
-<img src="fig/SpatialDM.png">
+**问题描述** 利用双变量 Moran 统计来检测空间共表达的配体和受体对、它们的局部相互作用点（单点分辨率）和通信模式。SpatialDM 揭示了一些通信模式并识别了条件之间的差异相互作用，从而能够发现特定环境的细胞合作和信号传导。
+<details><summary> SpatialDM </summary>
+<img src="fig/SpatialDM.png"></details>
 
-**2**  [`Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+
+**2**  [`Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10250239/pdf/gkad352.pdf)
 
 **期刊/时间** `Nucleic Acids Research / 2023.05` 
 
 **关键词** `ligand-receptor interactions` `downstream pathways`
 
 **问题描述** 将配体-受体相互作用与下游通路整合以在bulk和空间转录组数据上推断配受体细胞网络
-<img src="fig/BulkSignalR.png">
+<details><summary> BulkSignalR </summary>
+<img src="fig/BulkSignalR.png"></details>
+
 </details>
 <details><summary> 
   
 ### 其它 
 </summary>
 
-**1**  [`Principles and challenges of modeling temporal and spatial omics data`](https://doi.org/10.1038/s41592-023-01992-y)
+**1**  [`Principles and challenges of modeling temporal and spatial omics data`](https://www.nature.com/articles/s41592-023-01992-y)
 
 **期刊/时间** `Nature Methods / 2023.09` 
 
@@ -252,32 +274,35 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 ### 多组学/多模态数据整合
 </summary>
 
-**1**  [`Integration of gene expression and DNA methylation data across different experiments`](https://www.biorxiv.org/content/10.1101/2022.11.07.515535v1.full.pdf)
+**1**  [`Integration of gene expression and DNA methylation data across different experiments`](https://academic.oup.com/nar/article/51/15/7762/7217038)
 
 **期刊/时间** `Nucleic Acids Research  /2023.07` 
 
-**关键词** `MO/MD problem` `predictive model` `DNA methylation data`
+**关键词** `MO/MD problem` `predictive model` `DNA methylation data` `INTEND`
 
 **问题描述** 通过学习一个根据甲基化数据预测基因表达的模型来进行数据整合
-<img src="fig/STAMarker.png">
+<details><summary> INTEND </summary>
+<img src="fig/INTEND.png"></details>
 
-**2**  [`Integration of spatial and single-cell data across modalities with weakly linked features`](https://www.biorxiv.org/content/10.1101/2023.02.08.527590v1.full.pdf)
+**2**  [`Integration of spatial and single-cell data across modalities with weakly linked features`](https://www.nature.com/articles/s41587-023-01935-0)
 
 **期刊/时间** `Nature Biotechnology / 2023.09` 
 
-**关键词** `weak linkage`  `fuzzy smoothed embedding`
+**关键词** `weak linkage`  `fuzzy smoothed embedding` `MaxFuse`
 
 **问题描述** 通过迭代共嵌入、数据平滑和细胞匹配，使用每个模态中的所有信息来获得数据集成
-<img src="fig/SpatialAnno.png">
+<details><summary> MaxFuse </summary>
+<img src="fig/MaxFuse.png"></details>
 
-**3**  [`Stabilized mosaic single-cell data integration using unshared feature`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
+**3**  [`Stabilized mosaic single-cell data integration using unshared feature`](https://www.nature.com/articles/s41587-023-01766-z)
 
 **期刊/时间** `Nature Biotechnology / 2023.05` 
 
-**关键词** `non-overlapping features` `multi-hop`
+**关键词** `non-overlapping features` `multi-hop` `StabMap`
 
 **问题描述** 在共享特征的基础上，利用非共享特征来稳定单细胞数据的整合
-<img src="fig/GASTON.png">
+<details><summary> StabMap </summary>
+<img src="fig/StabMap.png"></details>
 
 **4**  [`Multi-task learning from multimodal single-cell omics with Matilda`](https://www.biorxiv.org/content/10.1101/2023.10.10.561757v1.full.pdf)
 
