@@ -445,7 +445,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 使用单细胞数据，预测序列基序对基因调控的影响 **目标** 确定哪些基因序列具有调控基因的功能并量化
 
-<img src="fig/Scover.png"><details><summary> GSFA </summary><img src="fig/GSFA.png"></details>
+<details><summary> Scover </summary><img src="fig/Scover.png"></details>
 
 **2**  [`Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
