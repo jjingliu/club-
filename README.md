@@ -454,9 +454,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Gene Knockout Inference` `VGAE`
 
 **问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
-<details><summary> Knockout </summary><img src="fig/Knockout.png"></details>
+<details><summary> knockout </summary><img src="fig/knockout.png"></details>
 
-**3**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**3**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://academic.oup.com/nar/article/51/10/e58/7110758)
 
 **期刊/时间** `Nucleic Acids Research  / 2023.06` 
 
@@ -465,7 +465,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 用信号通路的先验知识来识别单细胞转录组数据中细胞接收的外部信号
 <details><summary> exFINDER </summary><img src="fig/exFINDER.png"></details>
 
-**4**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
+**4**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad1174/7471720)
 
 **期刊/时间** `Nucleic Acids Research / 2023.12` 
 
@@ -483,6 +483,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
 <details><summary> TREDNet </summary><img src="fig/TREDNet.png"></details>
+
 </details>
 
 <details><summary> 
@@ -506,7 +507,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Gene Knockout Inference` `VGAE`
 
 **问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
-<details><summary> Knockout </summary><img src="fig/Knockout.png"></details>
+<details><summary> knockout </summary><img src="fig/knockout.png"></details>
 
 **3**  [`Predicting transcriptional outcomes of novel multigene perturbations with GEARS`](https://www.nature.com/articles/s41587-023-01905-6)
 
