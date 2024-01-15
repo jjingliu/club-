@@ -445,7 +445,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 使用单细胞数据，预测序列基序对基因调控的影响 **目标** 确定哪些基因序列具有调控基因的功能并量化
 
-<img src="fig/Scover.png">
+<img src="fig/Scover.png"><details><summary> GSFA </summary><img src="fig/GSFA.png"></details>
 
 **2**  [`Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -454,7 +454,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Gene Knockout Inference` `VGAE`
 
 **问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
-<img src="fig/VGAE.png">
+<details><summary> Knockout </summary><img src="fig/Knockout.png"></details>
 
 **3**  [`exFINDER: identify external communication signals using single-cell transcriptomics data`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -463,7 +463,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `external system` `signaling pathways`  `external signals`
 
 **问题描述** 用信号通路的先验知识来识别单细胞转录组数据中细胞接收的外部信号
-<img src="fig/exFINDER.png">
+<details><summary> exFINDER </summary><img src="fig/exFINDER.png"></details>
 
 **4**  [`HetFCM: functional co-module discovery by heterogeneous network co-clustering`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -472,7 +472,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `attributed heterogeneous network` `variational graph autoencoders` `adaptive weighted co-clustering`
 
 **问题描述** 检测功能分子模块
-<img src="fig/HetFCM.png">
+<details><summary> HetFCM </summary><img src="fig/HetFCM.png"></details>
 
 
 **5**  [`Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits`](https://www.pnas.org/doi/epdf/10.1073/pnas.2206612120)
@@ -482,8 +482,9 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `genetic associations` `deep learning` `epigenomics`
 
 **问题描述** 分析序列变异对增强子的影响，学习胰岛特异性转录因子的调控模式
-<img src="fig/TREDNet.png">
+<img src="fig/TREDNet.png"><details><summary> T2D </summary><img src="fig/T2D.png"></details>
 </details>
+
 <details><summary> 
 
 ### 细胞扰动
@@ -496,7 +497,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Bayesian factor analysis` `cell perturbations` `GSFA`
 
 **问题描述** GSFA类似于矩阵分解，将基因表达矩阵分解，并对分解后的矩阵进行生物意义上的下游分析。
-<img src="fig/GSFA.png">
+<details><summary> GSFA </summary><img src="fig/GSFA.png"></details>
 
 **2**  [`Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9)
 
@@ -505,7 +506,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Gene Knockout Inference` `VGAE`
 
 **问题描述** 学习单细胞基因调控网络来模拟基因敲除后的虚拟KO数据
-<img src="fig/VGAE.png">
+<details><summary> Knockout </summary><img src="fig/Knockout.png"></details>
 
 **3**  [`Predicting transcriptional outcomes of novel multigene perturbations with GEARS`](https://www.nature.com/articles/s41587-023-01905-6)
 
@@ -514,7 +515,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `deep learning` `a knowledge graph of gene-gene relationships`
 
 **问题描述** 预测对单基因和`多基因`扰动的转录反应
-<img src="fig/GEARS.png">
+<details><summary> GEARS </summary><img src="fig/GEARS.png"></details>
 
 **4**  [`Causal identification of single-cell experimental perturbation effects with CINEMA-OT`](https://www.nature.com/articles/s41592-023-02040-5)
 
@@ -523,7 +524,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `causal independent effect` `optimal transport` `CINEMA-OT`
 
 **问题描述** 一种基于因果推断的单细胞扰动分析方法，称为CINEMA-OT（因果独立效应模块归因+最优传输）。CINEMA-OT将干扰变异源从扰动效应中分离出来，以获得反事实细胞对的最佳传输匹配。这些细胞对代表了因果扰动反应，并能进行一系列下游分析，如个体治疗效果分析、反应聚类、归因分析和协同分析。
-<img src="fig/CINEMA-OT.png">
+<details><summary> CINEMA-OT </summary><img src="fig/CINEMA-OT.png"></details>
 
 **5**  [`Learning single-cell perturbation responses using neural optimal transport`](https://www.nature.com/articles/s41592-023-01969-x)
 
@@ -532,7 +533,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词**  `optimal transport` `CellOT`
 
 **问题描述** 一种基于神经最优传输的方法，称为CellOT，用于预测细胞在扰动下的状态变化。该方法基于单细胞表达谱的概率分布，通过学习最优传输映射来模拟细胞在扰动下的分布变化。
-<img src="fig/CellOT.png">
+<details><summary> CellOT </summary><img src="fig/CellOT.png"></details>
 </details>
 
 
@@ -549,7 +550,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 新型深度生成网络 DISCERN，利用参考数据集精确重建缺失的单细胞基因表达
 
-<img src="fig/DISCERN.png">
+<details><summary> DISCERN </summary><img src="fig/DISCERN.png"></details>
 
 **2**  [`SCA: recovering single-cell heterogeneity through information-based dimensionality reduction`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02998-7)
 
@@ -559,7 +560,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 一种新技术，利用信息理论中的惊奇概念进行降维，以促进更有意义的信号提取
 
-<img src="fig/SCA.png">
+<details><summary> SCA </summary><img src="fig/SCA.png"></details>
 
 **3**  [`SEACells infers transcriptional and epigenomic cellular states from single-cell genomics data`](https://www.nature.com/articles/s41587-023-01716-9)
 
@@ -577,7 +578,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 从单细胞 RNA 测序数据推断细胞类型特异性共表达
 
-<img src="fig/cell-type-specific co-expreesion.png">
+<details><summary> cell-type-specific co-expreesion </summary><img src="fig/cell-type-specific co-expreesion.png"></details>
 
 </details>
 
@@ -607,7 +608,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `binding affinity prediction` `congeneric ligands` `PBCNet`
 
 **问题描述** 一种基于物理信息图注意机制的配对结合比较网络（PBCNet），专门用于同源配体之间相对结合亲和力的排序
-<img src="fig/PBCNet.png">
+<details><summary> PBCNet </summary><img src="fig/PBCNet.png"></details>
 
 **2**  [`Deep-learning-enabled protein–protein interaction analysis for prediction of SARS-CoV-2 infectivity and variant evolution`](https://www.nature.com/articles/s41591-023-02483-5)
 
@@ -616,7 +617,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `protein–protein interaction` `congeneric ligands` `PBCNet`
 
 **问题描述** 基于化合物的结构预测 PPI
-<img src="fig/UniBind.png">
+<details><summary> UniBind </summary><img src="fig/UniBind.png"></details>
 
 **3**  [`Calibrated geometric deep learning improves kinase–drug binding predictions`](https://www.nature.com/articles/s42256-023-00751-0)
 
@@ -625,7 +626,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `kinase–drug binding` `KDBNet`
 
 **问题描述** KDBNet 结合三维结构数据与不确定性校准，显著提升激酶-药物结合预测准确性
-<img src="fig/KDBNet.png">
+<details><summary> KDBNet </summary><img src="fig/KDBNet.png"></details>
 
 </details>
 
@@ -642,7 +643,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `protein language models` `MSA` `vcMSA`
 
 **问题描述** 预测MSA
-<img src="fig/vcMSA.png">
+<details><summary> vcMSA </summary><img src="fig/vcMSA.png"></details>
 
 **2**  [`MolFPG: Multi-level fingerprint-based Graph Transformer for accurate and robust drug toxicity prediction`](https://www.sciencedirect.com/science/article/pii/S0010482523003694)
 
@@ -651,7 +652,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `Graph Transformer` `fingerprint` `drug toxicity prediction` `MolFPG`
 
 **问题描述** 开发了一种创新的分子指纹图转换器框架（MolFPG），带有用于可解释毒性预测的全局感知模块。使用多种分子指纹技术对化合物进行编码，并集成基于 Graph Transformer 的分子表示以进行特征学习和毒性预测。
-<img src="fig/MolFPG.png">
+<details><summary> MolFPG </summary><img src="fig/MolFPG.png"></details>
 
 **3**  [`A method for multiple-sequence-alignment-free protein structure prediction using a protein language model`](https://www.nature.com/articles/s42256-023-00721-6)
 
@@ -660,7 +661,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `protein language model` `MSA-free` `HelixFold`
 
 **问题描述** HelixFold-Single结合了大规模蛋白质语言模型（PLM）和AlphaFold2的几何学习能力，不依赖多序列比对（MSA），仅从初级结构（氨基酸序列）预测原子三维坐标，从而实现对蛋白质结构的准确预测。
-<img src="fig/HelixFold.png">
+<details><summary> HelixFold </summary><img src="fig/HelixFold.png"></details>
 
 **4**  [`Deep domain adversarial neural network for the deconvolution of cell type mixtures in tissue proteome profiling`](https://www.nature.com/articles/s42256-023-00737-y)
 
@@ -669,7 +670,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **关键词** `deconvolution` `scpDeconv`
 
 **问题描述** 基于蛋白质组学对细胞类型解卷积，没有空间信息
-<img src="fig/scpDeconv.png">
+<details><summary> scpDeconv </summary><img src="fig/scpDeconv.png"></details>
 
 </details>
 
