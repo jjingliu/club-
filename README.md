@@ -79,6 +79,17 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 空间转录组数据整合分析，最终得到的是所有spot的新的表示，并不强调空间坐标对应
 <img src="fig/MUSTANG.png">
+
+**7**  [`Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks`](https://www.nature.com/articles/s42256-023-00734-1)
+
+**期刊/时间** `Nature Machine Intelligence /2023.10` 
+
+**关键词** `transcriptomics data analysis` `STitch3D`
+
+**问题描述** 空间转录组数据整合分析，构建3D-graph
+<img src="fig/STitch3D.png">
+
+
 </details>
 
 
@@ -190,7 +201,7 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **1**  [`SpatialDM for rapid identification of spatially co-expressed ligand–receptor and revealing cell–cell communication patterns`](https://www.nature.com/articles/s41467-023-39608-w)
 
-**期刊/时间** `Nature Methods / 2023.09` 
+**期刊/时间** `Nature Methods / 2023.11` 
 
 **关键词** `temporal and spatial omics data` `review`
 
@@ -205,10 +216,30 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 将配体-受体相互作用与下游通路整合以在bulk和空间转录组数据上推断配受体细胞网络
 <img src="fig/BulkSignalR.png">
+</details>
+<details><summary> 
+  
+### 其它 
+</summary>
 
+**1**  [`Principles and challenges of modeling temporal and spatial omics data`](https://doi.org/10.1038/s41592-023-01992-y)
 
+**期刊/时间** `Nature Methods / 2023.09` 
+
+**关键词** `temporal and spatial omics data` `review`
+
+**问题描述** 概述了时间和空间组学数据分析的共同原则和挑战。讨论了建模时间和空间相关性的统计概念，并强调了将现有分析方法应用于具有时间和空间维度的数据的机会。
+
+**2**  [`BayesTME: An end-to-end method for multiscale spatial transcriptional profiling of the tissue microenvironment`](https://www.sciencedirect.com/science/article/pii/S2405471223001564)
+
+**期刊/时间** `Cell system / 2023.07` 
+
+**关键词** `comprehensive analysis of spatial transcriptomics` `bleed correction` `cell type deconvonlution` `spatial transcriptional programs` `BayesTME`
+
+**问题描述** 综合分析空间转录组数据，一个比较全面的研究流程
 
 </details>
+
 
 
 ## 单细胞相关
@@ -543,10 +574,45 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 **问题描述** 一种基于物理信息图注意机制的配对结合比较网络（PBCNet），专门用于同源配体之间相对结合亲和力的排序
 <img src="fig/PBCNet.png">
 
-
 </details>
 
-## 其它
+
+<details><summary> 
+	
+### 其它
+</summary>
+
+**1**  [`Leveraging protein language models for accurate multiple sequence alignments`](https://genome.cshlp.org/content/33/7/1145.full.pdf+html)
+
+**期刊/时间** `Genome Research / 2023.06` 
+
+**关键词** `protein language models` `MSA` `vcMSA`
+
+**问题描述** 预测MSA
+<img src="fig/vcMSA.png">
+
+**2**  [`MolFPG: Multi-level fingerprint-based Graph Transformer for accurate and robust drug toxicity prediction`](https://www.sciencedirect.com/science/article/pii/S0010482523003694)
+
+**期刊/时间** `Computers in Biology and Medicine / 2023.09` 
+
+**关键词** `Graph Transformer` `fingerprint` `drug toxicity prediction` `MolFPG`
+
+**问题描述** 开发了一种创新的分子指纹图转换器框架（MolFPG），带有用于可解释毒性预测的全局感知模块。使用多种分子指纹技术对化合物进行编码，并集成基于 Graph Transformer 的分子表示以进行特征学习和毒性预测。
+<img src="fig/MolFPG.png">
+
+**3**  [`A method for multiple-sequence-alignment-free protein structure prediction using a protein language model`](https://www.nature.com/articles/s42256-023-00721-6)
+
+**期刊/时间** `Nature Machine Intelligence / 2023.10` 
+
+**关键词** `protein language model` `MSA-free` `HelixFold`
+
+**问题描述** HelixFold-Single结合了大规模蛋白质语言模型（PLM）和AlphaFold2的几何学习能力，不依赖多序列比对（MSA），仅从初级结构（氨基酸序列）预测原子三维坐标，从而实现对蛋白质结构的准确预测。
+<img src="fig/HelixFold.png">
+
+
+
+</details>
+## 其它问题
 <details><summary> 
 	
 ### 细胞图像
@@ -573,6 +639,31 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 	
 </details>
 
+<details><summary>
+	
+### 跨组织/跨物种
+</summary>
+
+**1**  [`Hypergraph factorization for multi-tissue gene expression imputation`](https://www.nature.com/articles/s42256-023-00684-8)
+
+**期刊/时间** `Nature Machine Intelligence / 2023.07` 
+
+**关键词** `multi-tissue` `Hypergraph` `HYFA`
+
+**问题描述** 利用超图，实现`跨组织&跨样本`的信息交流
+<img src="fig/HYFA.png">
+
+**2**  [`Extrapolating heterogeneous time-series gene expression data using Sagittarius`](https://www.nature.com/articles/s42256-023-00679-5)
+
+**期刊/时间** `Nature Machine Intelligence / 2023.06` 
+
+**关键词** `heterogeneous` `time-series gene expression` `Sagittarius`
+
+**问题描述** Sagittarius学习一个多数据模态共享的低纬度空间，并从中生成模拟的时间序列测量数据，从而明确地建模未对齐的时间点和时间序列之间的条件批次效应，并使该模型广泛适用于不同的生物学环境。
+<img src="fig/Sagittarius.png">
+
+</details>
+
 **1**  [`Towards in silico CLIP-seq: predicting protein-RNA interaction via sequence-to-signal learning`](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03015-7)
 
 **期刊/时间** `Genome Biology / 2023.08` 
@@ -590,6 +681,15 @@ s被认为是表示两切片之间重叠占比的参数，当g_i=1/n时，将有
 
 **问题描述** 这篇文章主要解决了如何将时间序列数据嵌入到低维空间中的问题
 <img src="fig/T-PHATE.png">
+
+**3**  [`Modeling and predicting cancer clonal evolution with reinforcement learning`](https://genome.cshlp.org/content/early/2023/08/10/gr.277672.123.full.pdf+html)
+
+**期刊/时间** `Genome Research / 2023.07` 
+
+**关键词** `clonal evolution` `reinforcement learning` `CloMu`
+
+**问题描述** CloMu 使用通过强化学习，根据克隆上现有的突变确定新突变的概率。CloMu 支持多种预测任务，包括确定进化轨迹、树选择、突变之间的因果关系和互换性以及突变适应性。
+<img src="fig/CloMu.png">
 
 
 
